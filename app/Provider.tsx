@@ -2,14 +2,14 @@
 import React, { ReactNode } from 'react'
 import { LiveblocksProvider, ClientSideSuspense } from '@liveblocks/react/suspense'
 import Loader from '@/components/Loader';
-import { getClerkUser } from '@/lib/actions/user.actions';
+import { getClerkUsers } from '@/lib/actions/user.actions';
 
 const Provider = ({ children }: { children: ReactNode }) => {
   return (
     <LiveblocksProvider
       authEndpoint='/api/liveblocks-auth'
       resolveUsers={async ({ userIds }) => {
-        const users = await getClerkUser({ userIds });
+        const users = await getClerkUsers({ userIds });
 
         return users;
       }}>
