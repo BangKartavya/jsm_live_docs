@@ -1,7 +1,7 @@
 import { withSentryConfig } from '@sentry/nextjs';
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
