@@ -15,7 +15,6 @@ import Image from "next/image";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import UserTypeSelector from "./UserTypeSelector";
-import { setUser } from "@sentry/nextjs";
 import Collaborator from "./Collaborator";
 import { updateDocumentAccess } from "@/lib/actions/room.actions";
 
