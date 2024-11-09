@@ -2,13 +2,15 @@
     "name": "jsm_live_docs",
     "version": "0.1.0",
     "private": true,
-    "scripts": {
+    "scripts": 
+    {
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
     },
-    "dependencies": {
+    "dependencies": 
+    {
         "@clerk/nextjs": "^6.1.0",
         "@clerk/themes": "^2.1.40",
         "@floating-ui/react": "^0.26.27",
@@ -34,11 +36,12 @@
         "next": "14.2.17",
         "react": "18.3.1",
         "react-dom": "18.3.1",
-        "swr": "^2.2.5",
+        "swr": "1.2.2",
         "tailwind-merge": "^2.5.4",
         "tailwindcss-animate": "^1.0.7"
     },
-    "devDependencies": {
+    "devDependencies": 
+    {
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",
